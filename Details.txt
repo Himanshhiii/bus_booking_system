@@ -1,0 +1,28 @@
+Name:Himanshi Sharma
+Er no: 211B134
+
+This file contains details about the project.
+
+
+database: "My_database"
+number of tables:05
+
+
+table 1: operator 
+attributes: op_id, name, address, phone, email
+primary key: op_id
+
+table 2: route 
+attributes: route_id, station ,s_id
+
+table3: bus
+attributes: bus_id, type, capacity, fare, route_id,op_id
+
+table4: runs
+attributes:bus_id, journey_date,seat_available
+
+table5: booking
+attributes: mobile, name, sex, age,journey_date, ticket, ref_id, fromst, tost
+
+ 
+ 
